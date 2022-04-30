@@ -29,8 +29,8 @@ jobs:
             git config --global init.defaultBranch main
             git init
             git add .
-            git config user.name "Scaleya"
-            git config user.email "61817665+Scaleya@users.noreply.github.com"
+            git config user.name "mainians"
+            git config user.email "61817665+mainians@users.noreply.github.com"
             git commit -m "xmg amd64 binary"
             git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push origin main --force
